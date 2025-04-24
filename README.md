@@ -8,4 +8,4 @@ The homepage welcomes visitors with a calming aesthetic that blends tropical and
 Products Page:
 This section showcases a curated selection of beauty products, including face oils, toners, and more. Each product is presented with a name, price, and a clear "Add to Cart" button. Customers can easily browse and select items they wish to purchase.
 
-![image alt]()
+![image alt](https://github.com/dishalath/Demo/blob/d45f94614dae6d1268c9888500d1d81e7f340ba8/Screenshot%20(172).png)
