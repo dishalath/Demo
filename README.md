@@ -13,4 +13,13 @@ This section showcases a curated selection of beauty products, including face oi
 About Us:
 Here, the brand story comes to life. Customers learn about Palm & Pine’s commitment to eco-friendly practices, cruelty-free ingredients, and their passion for empowering natural beauty.
 
+![image alt](https://github.com/dishalath/Demo/blob/2122a615eae16821443b1ce63337d6fcf7dc5ae9/Screenshot%20(173).png)
+
+Customer Testimonials: This section of the Palm & Pine Beauty Products website showcases real customer testimonials and a newsletter sign-up invitation. Three testimonials are elegantly displayed in white cards with soft shadows, highlighting positive experiences with products like the Revitalizing Facial Serum and Nourishing Body Butter. Each review emphasizes the brand’s effectiveness, sustainability, and suitability for sensitive skin.
+
+![image alt]()
+
+
+Contact Us: The footer and subscription section of the Palm & Pine Beauty Products website. The dark green banner invites visitors to “Join Our Community” by subscribing to receive updates on new products, offers, and skincare tips. A neatly styled email input field with a warm orange “Subscribe” button is centered for easy access. Below, the footer is organized into four columns: brand description, shopping categories, company information, and support links. It includes useful navigation like “Facial Care,” “Sustainability,” and “Shipping & Returns.” The elegant and clean layout reflects the brand’s natural, customer-focused approach, enhancing user trust and experience.
+
 ![image alt]()
