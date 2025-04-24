@@ -22,4 +22,4 @@ Customer Testimonials: This section of the Palm & Pine Beauty Products website s
 
 Contact Us: The footer and subscription section of the Palm & Pine Beauty Products website. The dark green banner invites visitors to “Join Our Community” by subscribing to receive updates on new products, offers, and skincare tips. A neatly styled email input field with a warm orange “Subscribe” button is centered for easy access. Below, the footer is organized into four columns: brand description, shopping categories, company information, and support links. It includes useful navigation like “Facial Care,” “Sustainability,” and “Shipping & Returns.” The elegant and clean layout reflects the brand’s natural, customer-focused approach, enhancing user trust and experience.
 
-![image alt]()
+![image alt](https://github.com/dishalath/Demo/blob/8e020b1aef2362eac1467d6a1df7986c92eab50d/Screenshot%20(175).png)
