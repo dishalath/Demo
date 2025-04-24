@@ -1,0 +1,80 @@
+import React, { useState, useEffect } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import ProductCard from './ProductCard';
+import axios from 'axios';
+
+const FeaturedProducts = () => {
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const { data } = await axios.get('/api/products/featured');
+        setProducts(data);
+        setLoading(false);
+      } catch (error) {
+        setError('Failed to load products');
+        setLoading(false);
+      }
+    };
+
+    fetchProducts();
+  }, []);
+
+  // Fallback data for development or if API fails
+  const fallbackProducts = [
+    {
+      id: 1,
+      name: 'Revitalizing Facial Serum',
+      category: 'Facial Care',
+      price: 850.00,
+      image: '/images/facial-serum.jpg',
+    },
+    {
+      id: 2,
+      name: 'Nourishing Body Butter',
+      category: 'Body Care',
+      price: 780.00,
+      image: '/images/body-butter.jpg',
+    },
+    {
+      id: 3,
+      name: 'Hydrating Face Mask',
+      category: 'Facial Care',
+      price: 690.00,
+      image: '/images/skincare.jpg',
+    },
+    {
+      id: 4,
+      name: 'Natural Lip Balm Set',
+      category: 'Lip Care',
+      price: 450.00,
+      image: '/images/lipbalm.jpg',
+    }
+  ];
+
+  // Use fallback data if there's an error or no products
+  const displayProducts = products.length > 0 ? products : fallbackProducts;
+
+  return (
+    <section className="featured py-5" id="shop">
+      <Container>
+        <div className="section-header text-center mb-5">
+          <h2>Our Bestsellers</h2>
+          <p>Experience the best of Palm & Pine with our most loved products</p>
+        </div>
+        <Row>
+          {displayProducts.map(product => (
+            <Col key={product.id} sm={6} md={3} className="mb-4">
+              <ProductCard product={product} />
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </section>
+  );
+};
+
+export default FeaturedProducts;
